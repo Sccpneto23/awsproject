@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Currículo - Luiz Matias</title>
+  <style>
+    :root {
+      --primary-color: #007BFF;
+      --secondary-color: #6c757d;
+      --background-color: #f8f9fa;
+      --text-color: #333;
+      --light-gray: #e9ecef;
+    }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--background-color);
+      margin: 0;
+      padding: 0;
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      background-color: #fff;
+      margin: 20px auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.08);
+    }
+
+    .top-header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 30px;
+      border-bottom: 2px solid var(--primary-color);
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
+
+    .photo {
+      width: 120px;
+      height: 120px;
+      background-color: var(--light-gray);
+      border-radius: 50%;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .personal-info {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .personal-info h1 {
+      margin: 0 0 10px 0;
+      font-size: 28px;
+      color: var(--primary-color);
+    }
+
+    .personal-info p {
+      margin: 8px 0;
+      font-size: 15px;
+    }
+
+    h2 {
+      font-size: 22px;
+      color: var(--primary-color);
+      margin-top: 30px;
+      margin-bottom: 15px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin: 25px 0 10px 0;
+      color: var(--text-color);
+    }
+
+    ul {
+      padding-left: 20px;
+      margin: 10px 0;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: var(--primary-color);
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      opacity: 0.8;
+    }
+
+    .info-block {
+      margin-top: 15px;
+    }
+
+    .multi-column {
+      columns: 2;
+      column-gap: 40px;
+    }
+
+    .job-period {
+      color: var(--secondary-color);
+      font-size: 15px;
+      font-weight: normal;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 20px;
+        margin: 10px;
+      }
+      
+      .top-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+      }
+      
+      .photo {
+        align-self: center;
+      }
+      
+      .multi-column {
+        columns: 1;
+      }
+      
+      h2 {
+        margin-top: 25px;
+      }
+    }
+
+    @media print {
+      body {
+        background-color: white;
+      }
+      
+      .container {
+        box-shadow: none;
+        margin: 0;
+        padding: 15px;
+        max-width: 100%;
+      }
+      
+      a {
+        text-decoration: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="top-header">
+      <div class="photo">
+        <img src="curriculo.jpg">
+      </div>
+      <div class="personal-info">
+        <h1>Luiz Matias da Silva Neto</h1>
+        <p><strong>Email:</strong> netomat23@gmail.com</p>
+        <p><strong>Telefone:</strong> (83) 99120-8664</p>
+        <p><strong>Endereço:</strong> Rua Francisco Alves, 1555 - Cruzeiro, Campina Grande - PB, 58415-540</p>
+        <p><strong>Nascimento:</strong> 10/09/1999</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/luiz-matias-neto-6a8347200/" target="_blank">luiz-matias-neto</a></p>
+      </div>
+    </div>
+
+    <h2>Objetivo</h2>
+    <p>Buscando crescimento profissional como headhunter.</p>
+
+    <h2>Experiência Profissional</h2>
+
+    <h3>Especialista em Recrutamento - AeC (abr/2024 - atual)</h3>
+    <ul>
+      <li>Triagem de currículos com foco no setor de TI.</li>
+      <li>Publicação de vagas em plataformas, descrição de perfis e competências.</li>
+      <li>Entrevistas e controle de dados dos candidatos.</li>
+      <li>Condução de entrevistas de desligamento com foco em clima organizacional.</li>
+      <li>Preparação de planilhas com indicadores e sugestões de melhoria no processo seletivo.</li>
+    </ul>
+
+    <h3>Analista de Treinamento - AeC (abr/2022 - mar/2024)</h3>
+    <ul>
+      <li>Monitoramento de KPIs e progresso organizacional.</li>
+      <li>Organização de workshops e treinamentos para líderes.</li>
+      <li>Revisão de planos de negócio e identificação de melhorias.</li>
+      <li>Suporte à equipe e criação de programas de capacitação.</li>
+    </ul>
+
+    <h3>Operador de Telemarketing - AeC (out/2020 - abr/2022)</h3>
+    <ul>
+      <li>Atendimento e vendas via telefone, chat e e-mail.</li>
+      <li>Registro de solicitações e reclamações, abertura de chamados técnicos.</li>
+      <li>Garantia de qualidade no atendimento e solução de problemas do cliente.</li>
+    </ul>
+
+    <h2>Formação Acadêmica</h2>
+    <div class="formacao">
+      <ul>
+        <li><strong>Tecnólogo em Análise e Desenvolvimento de Sistemas</strong><br>UNIFACISA – Campina Grande, PB (01/2024 – 01/2026)</li>
+        <li><strong>Licenciatura em História</strong><br>UEPB – Campina Grande, PB (08/2022 – 08/2026)</li>
+      </ul>
+    </div>
+
+    <h2>Habilidades e Competências</h2>
+    <div class="habilidades">
+      <ul>
+        <li>Capacidade analítica na avaliação de currículos</li>
+        <li>Planejamento de ações estratégicas</li>
+        <li>Proatividade no acompanhamento de fluxos</li>
+        <li>Conhecimento em ferramentas de avaliação</li>
+        <li>Empatia no processo de entrevistas</li>
+        <li>Familiaridade com rotinas administrativas de RH</li>
+        <li>Pensamento estratégico em treinamentos</li>
+        <li>Bom relacionamento interpessoal</li>
+        <li>Dinamismo em multitarefas</li>
+      </ul>
+    </div>
+
+    <h2>Idiomas</h2>
+    <div class="idiomas">
+      <ul>
+        <li><strong>Português:</strong> Nativo</li>
+        <li><strong>Inglês:</strong> Avançado (C1)</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
